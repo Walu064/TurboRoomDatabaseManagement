@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">TurboRoomDatabaseManagement</string>
+        <string-array name="init_db_content">
+            <item>st.szer.:Jakub:24</item>
+            <item>st.szer.:Michał:22</item>
+            <item>kpr.:Józek:22</item>
+            <item>ppłk:Artur:18</item>
+            <item>mjr:Jacek:24</item>
+            <item>płk:Stefan:35</item>
+            <item>gen.dyw.:Grześ:33</item>
+            <item>plut.:Robert:21</item>
+            <item>sierż.:Wlodzimierz:18</item>
+            <item>plut.:Michał:35</item>
+            <item>plut.:Józek:35</item>
+            <item>szer.:Artur:21</item>
+        </string-array>
 </resources>

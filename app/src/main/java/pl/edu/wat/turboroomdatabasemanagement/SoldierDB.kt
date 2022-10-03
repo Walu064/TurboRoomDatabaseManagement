@@ -8,11 +8,11 @@ import kotlinx.coroutines.InternalCoroutinesApi
 
 @Database(entities = [Soldier::class], version = 1, exportSchema = false)
 abstract class SoldierDB : RoomDatabase() {
-    abstract fun personDao() : SoldierDao
+    abstract fun soldierDao() : SoldierDao
     @InternalCoroutinesApi
     companion object {
         private var INSTANCE : SoldierDB? = null
-        fun getPersonDB(context : Context) : SoldierDB? {
+        fun getSoldierDB(context : Context) : SoldierDB? {
             if (INSTANCE == null) {
                 kotlinx.coroutines.internal.synchronized(SoldierDB::class) {
                     INSTANCE = Room.databaseBuilder(
